@@ -1,101 +1,60 @@
-Kalkulator Digital
+# Kalkulator Digital
 
-Kalkulator digital ini dibuat dengan menggunakan HTML, CSS, dan JavaScript. Kalkulator ini memiliki berbagai fitur perhitungan matematis seperti penjumlahan, pengurangan, perkalian, pembagian, persentase, akar kuadrat, dan banyak lagi. Kalkulator ini dirancang dengan antarmuka pengguna yang bersih dan responsif, sehingga mudah digunakan di berbagai perangkat.
+**Kalkulator Digital** adalah aplikasi kalkulator berbasis web yang dibuat dengan HTML, CSS, dan JavaScript. Aplikasi ini mendukung berbagai operasi aritmetika dasar hingga lanjutan, serta dilengkapi dengan fitur riwayat perhitungan.
 
-Fitur
+## ✨ Fitur
 
-1. Operasi Dasar:
+- **Operasi dasar:**
+  - Penjumlahan (`+`)
+  - Pengurangan (`-`)
+  - Perkalian (`×`)
+  - Pembagian (`÷`)
 
-Penjumlahan (+)
+- **Operasi lanjutan:**
+  - Persentase (`%`)
+  - Akar kuadrat (`√`)
+  - Pangkat dua (`x²`)
+  - Pangkat eksponen (`xʸ`)
 
-Pengurangan (-)
+- **Fitur tambahan:**
+  - Hapus layar (`C`)
+  - Hapus input terakhir (`⌫`)
+  - Hapus seluruh riwayat
 
-Perkalian (×)
+- **Riwayat perhitungan:**
+  - Menampilkan riwayat operasi sebelumnya
+  - Tombol untuk menghapus semua riwayat
 
-Pembagian (÷)
+## 📦 Instalasi
 
+1. Salin kode HTML ke file bernama `index.html`.
+2. Simpan file tersebut.
+3. Buka file menggunakan browser favorit Anda (Chrome, Firefox, Edge, Safari, dll.).
 
+## 🚀 Cara Penggunaan
 
-2. Operasi Lanjutan:
+- Klik tombol angka dan operator untuk membentuk ekspresi.
+- Tekan `=` untuk menghitung hasil.
+- Gunakan tombol:
+  - `C` → untuk menghapus seluruh input.
+  - `⌫` → untuk menghapus satu karakter terakhir.
+  - `Hapus Riwayat` → untuk menghapus seluruh catatan riwayat.
 
-Persentase (%)
+## 🛠️ Struktur Kode
 
-Akar kuadrat (√)
+- **HTML** → Struktur dan elemen kalkulator, termasuk layar, tombol, dan area riwayat.
+- **CSS** → Styling dengan tema gelap, efek transisi, dan layout grid.
+- **JavaScript** → 
+  - Fungsi untuk menangani input angka/operator.
+  - Evaluasi ekspresi menggunakan `eval()` (dengan sanitasi simbol × ÷).
+  - Fungsi khusus untuk persen, akar, kuadrat, dan eksponen.
+  - Penyimpanan dan pengelolaan riwayat perhitungan.
 
-Pangkatan (x²)
+## 📄 Lisensi
 
-Pangkatan dengan eksponen (xʸ)
+MIT License
 
+## 👤 Pembuat
 
-
-3. Fungsi Tambahan:
-
-Hapus layar (C)
-
-Hapus riwayat perhitungan
-
-Hapus input terakhir (⌫)
-
-
-
-4. Riwayat Perhitungan:
-
-Semua perhitungan yang telah dilakukan akan dicatat di bagian bawah kalkulator sebagai riwayat, yang dapat dihapus kapan saja.
-
-
-
-
-Instalasi
-
-Untuk menggunakan kalkulator ini, cukup unduh atau salin file HTML dan buka di browser favorit Anda.
-
-1. Salin seluruh kode HTML yang ada di dalam file index.html ke dalam file baru di editor teks.
-
-
-2. Simpan file dengan ekstensi .html.
-
-
-3. Buka file tersebut di browser Anda untuk mulai menggunakan kalkulator.
-
-
-
-Cara Menggunakan
-
-Menambah, Mengurangi, Mengalikan, Membagi: Cukup klik tombol angka dan operator untuk membangun ekspresi matematika. Klik tombol = untuk mendapatkan hasilnya.
-
-Operasi Lanjutan: Gunakan tombol untuk operasi matematika tambahan seperti akar kuadrat atau persen.
-
-Riwayat: Setelah melakukan perhitungan, riwayat akan ditampilkan di bawah kalkulator. Anda dapat menghapus riwayat kapan saja dengan menekan tombol "Hapus Riwayat".
-
-
-Penjelasan Kode
-
-1. HTML:
-
-Menggunakan elemen div untuk menata tampilan kalkulator, termasuk layar dan tombol.
-
-Penggunaan elemen button untuk setiap tombol kalkulator.
-
-
-
-2. CSS:
-
-Desain antarmuka dengan tema gelap dan grid untuk penataan tombol.
-
-Transisi dan efek hover ditambahkan untuk memberikan pengalaman pengguna yang lebih baik.
-
-
-
-3. JavaScript:
-
-Fungsi utama untuk menangani perhitungan matematika dan pembaruan tampilan kalkulator.
-
-Fungsi untuk menambahkan angka dan operator ke layar kalkulator, menghitung hasil perhitungan, dan mengelola riwayat perhitungan.
-
-Fungsi untuk menangani operasi lanjutan seperti akar kuadrat, persen, dan pangkat.
-
-
-
-
-Pembuat
-Dibuat oleh Iball © 2025
+Dibuat oleh [Iball](https://www.instagram.com/mhmdiqball14_) © 2025    
+Telegram: [@Iballxz](https://t.me/Iballxz)
